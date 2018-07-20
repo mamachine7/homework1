@@ -1,0 +1,597 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration:none
+        }
+    div {
+        display: block;
+    }
+    #mallPage, #mallPage.mallChn {
+        width: auto;
+        min-width: 990px;
+        background-color: transparent;
+    }
+    body {
+        background-color: #f5f5f5;
+        -webkit-font-smoothing: antialiased;
+    }
+    body, button, input, select, textarea {
+        font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+        font-style: normal;
+        font-variant-ligatures: normal;
+        font-variant-caps: normal;
+        font-variant-numeric: normal;
+        font-variant-east-asian: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 12px;
+        line-height: 1.5;
+        font-family: tahoma, arial, 宋体;
+    }
+    #site-nav {
+        height: 32px;
+        font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    }
+    #site-nav {
+        width: auto;
+        height: 26px;
+        position: relative!important;
+        background: #f2f2f2;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(242, 242, 242);
+        z-index: 99999;
+        -webkit-transform: translate3d(0,0,0);
+        border-bottom: 1px solid #e5e5e5;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(229, 229, 229);
+    }
+    #site-nav, .mui-top-banner-990 {
+        min-width: 990px;
+    }
+    #site-nav .sn-container {
+        height: 26px;
+        width: 100%;
+    }
+    #site-nav .sn-container, #site-nav .sn-login-info, #sn-bd {
+        position: relative;
+    }
+    #site-nav .sn-container, #site-nav a:link, #site-nav a:visited {
+        color: #999;
+    }
+    #site-nav .sn-login-info, #site-nav .sn-quick-menu, #site-nav .sn-miao-message, #site-nav .sn-welcome-info, #site-nav .sn-welcome-info span, #site-nav .sn-user-nick, #site-nav .sn-point {
+        height: 32px;
+        line-height: 32px;
+    }
+    #site-nav .sn-login-info, #site-nav .sn-user-nick {
+        display: inline-block;
+        height: 26px;
+        line-height: 26px;
+    }
+    #site-nav .sn-quick-menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 26px;
+        line-height: 1.5;
+        -webkit-backface-visibility: hidden;
+    }
+    ul, ol, li {
+        list-style: none;
+        list-style-type: none;
+        list-style-position: initial;
+        list-style-image: initial;
+    }
+    ol, ul {
+        list-style: none;
+        list-style-type: none;
+        list-style-position: initial;
+        list-style-image: initial;
+    }
+    ul{
+        float:left;
+    }
+    blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+        margin: 0;
+        padding: 0;
+    }
+    ul, menu, dir {
+        display: block;
+        list-style-type: disc;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-start: 40px;
+    }
+    .w1024 #site-nav #sn-bd {
+        left: 0;
+    }
+    #site-nav #sn-bd {
+        position: relative;
+        left: -15px;
+    }
+    .w1024 #sn-bd, .w1024 .headerLayout, .w1024 .full-banner {
+        width: 982px;
+    }
+    #sn-bd, .headerLayout, .full-banner {
+        width: 1230px;
+    }
+    #sn-bd {
+        width: 990px;
+        margin: auto;
+    }
+    #site-nav .sn-container, #site-nav .sn-login-info, #sn-bd {
+        position: relative;
+    }
+    #site-nav .sn-container:after, #sn-bd:after {
+        content: '\20';
+        display: block;
+        height: 0;
+        clear: both;
+    }
+    #site-nav .sn-quick-menu iframe.menu-bd{
+        border:0;background:0 0;filter:alpha(opacity=0);float:left;z-index:-1
+    }
+    #site-nav .menu-bd-panel a{
+        display:block;line-height:20px
+    }
+    #site-nav .sn-qrcode-content {
+    width: 175px;
+    height: 175px;
+    margin: 5px 0 0px;
+    background: url(//img.alicdn.com/tfs/TB1MDxDRpXXXXXUXFXXXXXXXXXX-175-215.png) 0 0 no-repeat;
+    }
+    #site-nav .sn-qrcode p {
+    background: url(//img.alicdn.com/tps/TB1sR93OFXXXXaAXXXXXXXXXXXX-145-30.png) center bottom no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 0 15px;
+    line-height: 35px;
+    }
+    #site-nav .sn-edge,#sn-bg,.hidden{display:none}
+    #site-nav .sn-container .hidden,#site-nav .sn-mobile{display:none}
+    #site-nav a.sn-identity{width:14px;height:14px;line-height:14px;color:#fff;text-decoration:none;top:6px;border-radius:50%;text-align:center;background-position:-180px -3px}
+    #site-nav .menu-bd{display:none;position:absolute;left:0;top:27px;background:#fff;filter:alpha(opacity=99);z-index:93110;border:solid #eee;border-width:0 1px 1px}
+    #site-nav .menu-bd a:link,#site-nav .menu-bd a:visited{color:#666}
+    #site-nav .menu-bd a:active,#site-nav .menu-bd a:hover{color:#FF0036}
+    #site-nav .sn-quick-menu iframe.menu-bd{border:0;background:0 0;filter:alpha(opacity=0);float:left;z-index:-1}
+    #site-nav .menu-bd-panel a{display:block;line-height:20px}
+    #site-nav .sn-menu{position:relative}
+    #site-nav .sn-menu a:hover{text-decoration:underline}
+    #site-nav .sn-menu:hover .menu-hd,#site-nav .sn-quick-menu .hover .menu-hd{background-color:#fff;border-color:#eee;padding-bottom:1px}
+    #site-nav .sn-menu:hover .menu-bd,#site-nav .sn-quick-menu .hover .menu-bd{display:block}
+    #site-nav .sn-favorite .menu-bd,#site-nav .sn-mytaobao .menu-bd,#site-nav .sn-seller .menu-bd,#site-nav .sn-sitemap .menu-bd{line-height:1.4;padding:8px 10px}
+    #site-nav .sn-mytaobao .menu-bd{width:74px}#site-nav .sn-favorite .menu-bd{width:62px}#site-nav .sn-seller .menu-bd{width:122px;overflow:hidden;right:0;left:auto}
+    #site-nav .sn-seller ul{margin-top:-5px;overflow:hidden;width:122px}
+    #site-nav .sn-message-cont{float:left}
+    #site-nav .sn-quick-menu li{float:left;position:relative}
+    #site-nav .menu-item{position:relative;z-index:93110}
+    #site-nav .menu-hd{display:block;height:26px;cursor:pointer;z-index:100001;border:solid #f2f2f2;border-width:0 1px;position:relative}
+    #site-nav .menu-hd,#site-nav .sn-b,#site-nav .sn-cart,#site-nav .sn-home,#site-nav .sn-login,#site-nav .sn-logout,#site-nav .sn-mobile,#site-nav .sn-mybrand,#site-nav .sn-point,#site-nav .sn-quick-menu .sn-cart,#site-nav .sn-register,#site-nav .sn-seller-center{padding:0 10px}
+
+    #mallPage #header {
+        margin-top: -30px;
+        width: auto;
+        margin-bottom: 0;
+        min-width: 990px;
+        background: #fff;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #header {
+        height: 130px;
+        margin-top: 0 !important;
+    }
+    #header {
+        height: 122px;
+        margin-top: -26px!important;
+        background: #fff;
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(255, 255, 255);
+        min-width: 990px;
+        width: auto!important;
+        position: relative;
+        z-index: 1000;
+    }
+
+    #content, #footer, #header, #page {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header .headerLayout {
+        padding-top: 0 !important;
+    }
+    .w1024 #sn-bd, .w1024 .headerLayout, .w1024 .full-banner {
+        width: 982px;
+    }
+    @media (max-width: 1260px)
+    #sn-bd, .headerLayout, .full-banner {
+        width: 982px;
+    }
+    #sn-bd, .headerLayout, .full-banner {
+        width: 1230px;
+    }
+    .headerLayout {
+        width: 990px;
+        padding-top: 26px;
+        margin: 0 auto;
+    }
+
+    .clearfix, .headerCon {
+        zoom: 1;
+    }
+
+    .clearfix:after, .clearfix:before, .headerCon:after, .headerCon:before {
+        display: table;
+        content: "";
+        overflow: hidden;
+    }
+    .clearfix:after, .headerCon:after {
+        clear: both;
+    }
+    .clearfix:after, .clearfix:before, .headerCon:after, .headerCon:before {
+        display: table;
+        content: "";
+        overflow: hidden;
+    }
+
+    .clearfix:after, .clearfix:before, .headerCon:after, .headerCon:before {
+        display: table;
+        content: "";
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #mallLogo {
+        display: none!important;
+    }
+    #mallLogo {
+        visibility: hidden;
+    }
+    #mallLogo {
+        float: left;
+        z-index: 9;
+        padding-top: 28px;
+        width: 280px;
+        height: 64px;
+        line-height: 64px;
+        position: relative;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 100%;
+        font-weight: 100;
+    }
+    button, h1, h2, h3, h4, h5, h6, input, select, textarea {
+        font-size: 100%;
+    }
+    blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        display: block;
+        font-size: 2em;
+        -webkit-margin-before: 0.67em;
+        -webkit-margin-after: 0.67em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        font-weight: bold;
+    }
+
+    #mallLogo .mlogo a {
+        height: 30px;
+        font-size: 22px;
+        width: 190px;
+        overflow: hidden;
+    }
+    #mallLogo a {
+        position: relative;
+        display: block;
+        color: #fff;
+        text-indent: 0!important;
+    }
+    a {
+        outline: 0;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    #mallPage #header {
+        margin-top: -30px;
+        width: auto;
+        margin-bottom: 0;
+        min-width: 990px;
+        background: #fff;
+    }
+    
+    #header {
+        height: 130px;
+        margin-top: 0 !important;
+    }
+    #header {
+        height: 122px;
+        margin-top: -26px!important;
+        background: #fff;
+        min-width: 990px;
+        width: auto!important;
+        position: relative;
+        z-index: 1000;
+    }
+    #content, #footer, #header, #page {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-extra {
+        overflow: hidden;
+    }
+
+    .w1024 #header .header-banner {
+        padding: 10px 0 0 80px;
+    }
+    @media (max-width: 1260px)
+    #header .header-banner {
+        padding: 10px 0 0 80px;
+    }
+    #header .header-banner {
+        padding: 2px 0 0 102.5px;
+    }
+    .header-banner {
+        float: right;
+        height: 70px;
+        padding: 10px 0 0 100px;
+        width: 200px;
+    }
+
+    .event-banner {
+        height: 80px;
+        width: 190px;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .header-banner img {
+        vertical-align: middle;
+    }
+    input, img {
+        vertical-align: middle;
+    }
+    img {
+        border: none;
+    }
+    fieldset, img {
+        border: 0;
+    }
+
+    img[Attributes Style] {
+        width: 100%;
+        height: 100%;
+    }
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+    user agent stylesheet
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    body {
+        background-color: #f5f5f5;
+        -webkit-font-smoothing: antialiased;
+    }
+    body, button, input, select, textarea {
+        font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    }
+
+    .w1024 #header #mallSearch {
+        width: 410px;
+    }
+    @media (max-width: 1260px)
+    #header #mallSearch {
+        width: 410px;
+    }
+    #header #mallSearch {
+        width: 625px;
+        padding-top: 38px;
+    }
+    #mallSearch {
+        float: right;
+        padding-top: 25px;
+        width: 390px;
+        overflow: hidden;
+    }
+
+    #header #mallSearch .mallSearch-form {
+        border-width: 2px 0 2px 2px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    .mallSearch-form {
+        border: solid #FF0036;
+        border-width: 3px 0 3px 3px;
+    }
+    .clearfix, .headerCon {
+        zoom: 1;
+    }
+
+    #mallSearch #mq, #mallSearch fieldset, .mallSearch-input {
+        position: relative;
+    }
+    fieldset, img {
+        border: 0;
+    }
+
+    #header #mallSearch button {
+        width: 132px;
+        height: 36px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    }
+    #mallSearch button, #tmallSearch button {
+        position: absolute;
+        z-index: 1;
+    }
+    #mallSearch button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 90px;
+        border: 0;
+        font-size: 16px;
+        letter-spacing: 4px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #FF0036;
+        height: 30px;
+        overflow: hidden;
+        font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+    }
+    button {
+        border-radius: 0;
+    }
+    button, h1, h2, h3, h4, h5, h6, input, select, textarea {
+        font-size: 100%;
+    }
+    body, button, input, select, textarea {
+        font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+        -ms-overflow-style: scrollbar;
+    }
+
+    #mallSearch legend, .mallSearch-type, .mui-global-header-fixed .hot-query, .page-not-market .header-banner {
+        display: none;
+    }
+
+    element.style {
+        visibility: visible;
+        display: none;
+    }
+    #header #mallSearch label {
+        font-size: 14px;
+        line-height: 36px;
+        height: 36px;
+    }
+    #mallSearch label, #tmallSearch label {
+        max-width: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    #mallSearch label {
+        color: #666;
+        font-size: 12px;
+        line-height: 30px;
+        height: 30px;
+        position: absolute;
+        left: 8px;
+        top: 0;
+        z-index: 1;
+    }
+
+    .w1024 #header #mallSearch #mq {
+        width: 276px;
+    }
+    @media (max-width: 1260px)
+    #header #mallSearch #mq {
+        width: 276px;
+    }
+    #header #mallSearch #mq {
+        height: 36px;
+        width: 491px;
+        font: 16px/22px arial;
+        box-sizing: border-box;
+        background: none;
+    }
+    
+    #mallSearch #mq {
+        color: #000;
+        margin: 0;
+        z-index: 2;
+        width: 289px;
+        height: 20px;
+        line-height: 20px;
+        padding: 5px 3px 5px 5px;
+        outline: 0;
+        border: none;
+        font-weight: 900;
+        background: url(data:image/gif;base64,R0lGODlhAQADAJEAAObm5t3d3ff39wAAACH5BAAAAAAALAAAAAABAAMAAAICDFQAOw==) repeat-x;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+    #mallSearch #mq, #mallSearch fieldset, .mallSearch-input {
+        position: relative;
+    }
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .hot-query li {
+        display: inline-block;
+        border-left: 1px solid #ccc;
+        line-height: 1.1;
+        padding: 0 12px;
+    }
+    ul, ol, li {
+        list-style: none;
+    }
+    user agent stylesheet
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    .hot-query {
+        height: 24px;
+        font-size: 14px;
+    }
+
+    .hot-query li.hot-query-highlight a {
+        color: #FF0036;
+    }
