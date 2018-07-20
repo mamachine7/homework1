@@ -501,7 +501,6 @@
     }
     body, button, input, select, textarea {
         font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
-        -ms-overflow-style: scrollbar;
     }
 
     #mallSearch legend, .mallSearch-type, .mui-global-header-fixed .hot-query, .page-not-market .header-banner {
